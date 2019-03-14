@@ -1,0 +1,14 @@
+coffeepush
+==========
+
+This is a endpoint for buymeacoffee purchase webhooks. It uses Pushover to send
+a notification to your Android or iOS device.
+
+To deploy this, you will need a Pushover API token.
+
+To test it, use the provided test data:
+
+curl -vv -d '@testdata/coffee.json' http://localhost:8080/push/YOUR_USER_KEY
+
+TODO: coffee link
+TODO: how to build and deploy
