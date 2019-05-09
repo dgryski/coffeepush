@@ -127,7 +127,7 @@ It forwards the notification through <a href="http://pushover.net">Pushover</a> 
 
         <p>Bugs and patches: <a href="https://github.com/dgryski/coffeepush">github.com/dgryski/coffeepush</a>
 
-	<p>And of course, if you use this, <a href="https://buymeacoff.ee/dgryski">buy me a coffee</a> :)
+	<p>And of course, if you use this, <a href="https://buymeacoffee.com/dgryski">buy me a coffee</a> :)
 
     </div>
   </body>
