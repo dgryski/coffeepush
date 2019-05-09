@@ -112,7 +112,7 @@ It forwards the notification through <a href="http://pushover.net">Pushover</a> 
         <p> Setup:
 
         <ul>
-        <li>Install the <a href="https://play.google.com/store/apps/details?id=net.superblock.pushover">Pushover app</a> on your phone
+        <li>Install the <a href="https://pushover.net/clients">Pushover app</a> on your phone
         <li>Login to <a href="https://pushover.net/">Pushover</a> and copy your user key from the home page.
         </ul>
 
