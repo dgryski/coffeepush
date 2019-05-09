@@ -120,7 +120,7 @@ It forwards the notification through <a href="http://pushover.net">Pushover</a> 
         <ul>
         <li>Go to the <a href="https://www.buymeacoffee.com/webhook">Buy Me A Coffee Webhooks</a> page.
         <li>Enter
-            <ul><li><b><tt>https://example.com/push/YOUR_USER_KEY</tt></b></ul>
+            <ul><li><b><tt>https://coffeepush.appspot.com/push/YOUR_USER_KEY</tt></b></ul>
         <li>Click <em>Create new webhook</em>
         <li>Click <em>Send Test</em> for instant gratification.
         </ul>
