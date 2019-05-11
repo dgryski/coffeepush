@@ -42,8 +42,12 @@ func main() {
 			return
 		}
 
+		name := event.Response.SupporterEmail
+		if name == "" {
+			name = "Somebody"
+		}
 		// TODO(dgryski): coffee vs link
-		msgtxt := fmt.Sprintf("%v bought %s coffee(s) for $%s", event.Response.SupporterEmail, event.Response.NumberOfCoffees, event.Response.TotalAmount)
+		msgtxt := fmt.Sprintf("%v bought %s coffee(s) for $%s", name, event.Response.NumberOfCoffees, event.Response.TotalAmount)
 
 		recipient := pushover.NewRecipient(token)
 		message := pushover.NewMessage(msgtxt)
